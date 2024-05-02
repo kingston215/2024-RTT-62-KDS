@@ -63,14 +63,24 @@ public class Homework303_2_1 {
 
             class Item {
                 String name;
-                double Price;
+                Double price;
 
-                public Item(String name, double price){
+                public Item(String name, double price) {
                     this.name = name;
-                    Price = price;
+                    this.price = price;
+                }
+            }
+                // Items
+                Item coffee = new Item("Coffee", 7);
+                Item IcedTea = new Item("IcedTea", 5);
+                Item GreenTea = new Item("GreenTea", 4);
+
+                subTotal =
+                        coffee.price + IcedTea.price + GreenTea.price;
+                totalSales = coffee.price + GreenTea.price + subTotal;
+                System.out.println(totalSales);
                 }
             }
 
-        }
-    }
+
 
