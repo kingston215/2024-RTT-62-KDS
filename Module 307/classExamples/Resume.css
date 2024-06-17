@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    float: left;
+}
+
+ol {
+    float: right;
+}
+
+ul {
+    float: right;
+}
+
+.a {
+    background-color: blue;
+        padding: 15px;
+        margin: 15px;
+        
+}
+
+.moneygram {
+    display: flex;
+}
+
+.ramos {
+    text-align: center;
+}
